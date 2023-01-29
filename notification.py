@@ -11,7 +11,7 @@ client= Client(account_sid, auth_token)
 message = client.messages.create( 
 body='Thank you for using covid predictor your id is : ' + str(id), 
 from_='+18646614447', 
-to = '+916303731463' 
+to = 'mobilenumber' 
 )
 
 print(message.sid) 
